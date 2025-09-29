@@ -36,7 +36,7 @@ Database: Your choice.
 ORM / DB Client: You are free to choose and install any ORM or database client you are comfortable with
 
 Data Model
-You are responsible for designing the database schema in PostgreSQL. Your schema must be able to store the necessary information for each feedback item, including its content, its current state in the workflow, and when it was created.
+You are responsible for designing the database schema . Your schema must be able to store the necessary information for each feedback item, including its content, its current state in the workflow, and when it was created.
 
 API Endpoints
 You will need to create the API endpoints to support the application's functionality. We recommend a RESTful approach.
@@ -76,7 +76,7 @@ To ensure we can run your project smoothly, please provide clear setup instructi
 Environment Variables: Create a .env.example file in the root of your project listing all necessary environment variables.
 
 # .env.example
-DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE"
+DATABASE_URL="DATABASE_TYPE://USER:PASSWORD@HOST:PORT/DATABASE"
 Database Setup: Add instructions below on how to prepare the database. For example, if you use a migration tool, specify the exact command to run.
 (Your setup instructions here)
 Dependencies: Ensure all required dependencies are listed in package.json. We will run npm install (or yarn install).
