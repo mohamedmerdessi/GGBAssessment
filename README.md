@@ -33,7 +33,7 @@ Technical Specifications
 Stack
 Framework: Next.js ( You are free to use either the Pages or App Router).
 Database: Your choice.
-ORM / DB Client: You are free to choose and install any ORM or database client you are comfortable with to connect to PostgreSQL.
+ORM / DB Client: You are free to choose and install any ORM or database client you are comfortable with
 
 Data Model
 You are responsible for designing the database schema in PostgreSQL. Your schema must be able to store the necessary information for each feedback item, including its content, its current state in the workflow, and when it was created.
